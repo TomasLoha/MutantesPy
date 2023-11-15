@@ -52,6 +52,11 @@ print("Es mutante" if is_mutant(dna) else "No es mutante")
 # Cómo Correr el Código
 
 - Abre un entorno de desarrollo Python o ejecuta el código en un entorno de consola.
-- Copia y pega el código en un archivo Python (por ejemplo, mutant_detector.py).
+- Copia y pega el código en un archivo Python (por ejemplo, `mutant_detector.py`).
 - Ejecuta el archivo Python.
 - El programa solicitará al usuario ingresar cada fila de ADN y mostrará el resultado de la prueba de mutación al final.
+- Un ejemplo de un caso mutante es el siguiente `["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]`
+
+### Notas adicionales:
+
+- Asegúrese de proporcionar un código genético válido en el formato de matriz [6x6].

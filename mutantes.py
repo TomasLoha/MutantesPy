@@ -51,18 +51,12 @@ def mostrar_matriz(matriz):
     for fila in matriz:
         print(" ".join(fila))
 
-
-# Crear matriz vacía de 6x6
 dna = [[' ']*6 for _ in range(6)]
 
-# Ingresar fila en la matriz
 for i in range(6):
     dna[i] = ingresar_fila()
 
-# Mostrar la matriz resultante
 print("\nMatriz Resultante:")
 mostrar_matriz(dna)
-
-# Verificar si es mutante e imprimir el resultado
 
 print("\n Resultado de la prueba de mutación: \n --------------- \n", "Es mutante" if is_mutant(dna) else "No es mutante", "\n --------------- " )
